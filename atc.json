@@ -15,8 +15,8 @@
                     "category": "Arduino",
                     "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC_1.0.2.zip?raw=true",
                     "archiveFileName": "ArduinoCore-renesas_ATC.zip",
-                    "checksum": "SHA-256:acc8c72d270b3bacbd08d9cce60061c495fdfe8f8e3b798ec42da65fcef5e4af",
-                    "size": "13156636",
+                    "checksum": "SHA-256:11360b34fce1d8efe8256a8c68e8bb3a1f2cc7409298707e667721884d34bfce",
+                    "size": "13156755",
                     "boards":[
                         {
                             "name" : "ATC"
