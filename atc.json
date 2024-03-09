@@ -12,7 +12,7 @@
                 "architecture": "renesas_uno",
                 "version": "1.0.0",
                 "category": "Arduino",
-                "url": "",
+                "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC.zip?raw=true",
                 "archiveFileName": "ArduinoCore-renesas_ATC.zip",
                 "checksum": "SHA-256:670594e61b47cc38969528a0e626bdfbd0edb9f9b3ee0433124dc5f4d4b6600d",
                 "size": "63024082",
