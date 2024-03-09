@@ -1,14 +1,15 @@
 {
     "packages":
     [
-        "name": "atc",
-        "maintainer": "RACEUP",
-        "websiteURL": "",
-        "email":"",
-        "platforms":
-        [
-            {
-                "name": "atc board"
+        {
+            "name": "atc",
+            "maintainer": "RACEUP",
+            "websiteURL": "https://github.com/AlbertoRaceup/custom_board_repo/tree/master",
+            "email":"alberto.damo@raceup.it",
+            "platforms":
+            [
+                {
+                "name": "atc_board"
                 "architecture": "renesas_uno",
                 "version": "1.0.0",
                 "category": "Arduino",
@@ -43,7 +44,8 @@
                       "name": "bossac"
                     }
               ],
-            },
-        ],
+                },
+            ],
+        },
     ],
 }
