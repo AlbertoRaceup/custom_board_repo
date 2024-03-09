@@ -2,8 +2,8 @@
     "packages":
     [
         {
-            "name": "atc",
-            "maintainer": "RACEUP",
+            "name": "ATC",
+            "maintainer": "Alberto Damo",
             "websiteURL": "https://github.com/AlbertoRaceup/custom_board_repo/tree/master",
             "email":"alberto.damo@raceup.it",
             "platforms":
@@ -11,12 +11,12 @@
                 {
                     "name": "ATC",
                     "architecture": "renesas_uno",
-                    "version": "1.0.1",
+                    "version": "1.0.2",
                     "category": "Arduino",
-                    "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC.zip?raw=true",
+                    "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC_1.0.2.zip?raw=true",
                     "archiveFileName": "ArduinoCore-renesas_ATC.zip",
                     "checksum": "SHA-256:acc8c72d270b3bacbd08d9cce60061c495fdfe8f8e3b798ec42da65fcef5e4af",
-                    "size": "63024082",
+                    "size": "13156636",
                     "boards":[
                         {
                             "name" : "ATC"
