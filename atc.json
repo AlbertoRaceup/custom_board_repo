@@ -9,7 +9,7 @@
             "platforms":
             [
                 {
-                "name": "atc_board"
+                "name": "atc_board",
                 "architecture": "renesas_uno",
                 "version": "1.0.0",
                 "category": "Arduino",
@@ -43,7 +43,7 @@
                       "version": "1.9.1-arduino5",
                       "name": "bossac"
                     }
-              ],
+                ],
                 },
             ],
         },
