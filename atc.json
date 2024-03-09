@@ -9,13 +9,13 @@
             "platforms":
             [
                 {
-                    "name": "atc_board",
+                    "name": "ATC",
                     "architecture": "renesas_uno",
                     "version": "1.0.0",
                     "category": "Arduino",
                     "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC.zip?raw=true",
                     "archiveFileName": "ArduinoCore-renesas_ATC.zip",
-                    "checksum": "SHA-256:670594e61b47cc38969528a0e626bdfbd0edb9f9b3ee0433124dc5f4d4b6600d",
+                    "checksum": "SHA-256:acc8c72d270b3bacbd08d9cce60061c495fdfe8f8e3b798ec42da65fcef5e4af",
                     "size": "63024082",
                     "boards":[
                         {
