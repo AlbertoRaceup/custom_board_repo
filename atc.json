@@ -1,13 +1,17 @@
 {
   "packages": [
     {
+
       "name": "Raceup ATC",
       "maintainer": "Raceup",
       "websiteURL": "https://github.com/AlbertoRaceup/custom_board_repo/tree/master",
       "email": "alberto.damo@raceup.it",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
       "platforms": [
         {
-          "name": "Raceup atc",
+          "name": "raceup",
           "architecture": "renesas_uno",
           "version": "1.0.2",
           "category": "Arduino",
@@ -15,9 +19,12 @@
           "archiveFileName": "ArduinoCore-renesas_ATC_1.0.2.zip",
           "checksum": "SHA-256:11360b34fce1d8efe8256a8c68e8bb3a1f2cc7409298707e667721884d34bfce",
           "size": "13156755",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
           "boards": [
             {
-              "name": "ATC"
+              "name": "atc"
             }
           ],
           "toolsDependencies": [
