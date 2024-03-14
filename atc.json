@@ -1,30 +1,81 @@
 {
   "packages": [
     {
-
-      "name": "raceup",
+      "name": "Raceup",
       "maintainer": "Raceup",
-      "websiteURL": "https://github.com/AlbertoRaceup/custom_board_repo/tree/master",
-      "email": "alberto.damo@raceup.it",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
       "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
       "platforms": [
         {
-          "name": "raceup",
+          "name": "Raceup UNO R4 Boards",
           "architecture": "renesas_uno",
-          "version": "1.0.3",
-          "category": "Arduino",
-          "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_ATC_1.0.3.zip?raw=true",
-          "archiveFileName": "ArduinoCore-renesas_ATC_1.0.3.zip",
-          "checksum": "SHA-256:bc40a5b7c733e65be46e854e13d2424db6e49389a90fa7a622c67b6b925cf46a",
-          "size": "13156642",
+          "version": "1.1.0",
+          "category": "Raceup",
+          "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_atc-1.1.0.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_atc-1.1.0.tar.bz2",
+          "checksum": "SHA-256:c8c815dcf132bc71df42609000a571a87ca74d1bf568fbadddeac1b965651aef",
+          "size": "14212457",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
           "boards": [
             {
-              "name": "atc"
+              "name": "Arduino UNO R4 Minima"
+            },
+            {
+              "name": "Arduino UNO R4 WiFi"
+            },
+            {
+              "name": "Raceup Atc"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.11.0-arduino5",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.9.1-arduino5",
+              "name": "bossac"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Renesas Portenta Boards",
+          "architecture": "renesas_portenta",
+          "version": "1.1.0",
+          "category": "Arduino",
+          "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
+          "checksum": "SHA-256:a00d25db39b6a4dff784175d60ae9e8a23b62cbded6b87e2150658833e1d1cec",
+          "size": "9508756",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta C33"
             }
           ],
           "toolsDependencies": [
