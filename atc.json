@@ -1,8 +1,8 @@
 {
   "packages": [
     {
-      "name": "Raceup",
-      "maintainer": "Raceup",
+      "name": "arduino",
+      "maintainer": "Arduino",
       "websiteURL": "http://www.arduino.cc/",
       "email": "packages@arduino.cc",
       "help": {
@@ -14,16 +14,62 @@
           "architecture": "renesas_uno",
           "version": "1.1.0",
           "category": "Raceup",
-          "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_atc-1.1.0.tar.bz2",
+          "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_atc-1.1.0.tar.bz2",
           "archiveFileName": "ArduinoCore-renesas_atc-1.1.0.tar.bz2",
-          "checksum": "SHA-256:c8c815dcf132bc71df42609000a571a87ca74d1bf568fbadddeac1b965651aef",
-          "size": "14212457",
+          "checksum": "SHA-256:ceb5acaf1fd399545dcc4031c4153ae5f0b546d670a77ea2c373bd233e228c4e",
+          "size": "14191315",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
           "boards": [
             {
               "name": "Raceup Atc"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.11.0-arduino5",
+              "name": "dfu-util"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.9.1-arduino5",
+              "name": "bossac"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        },
+        {
+          "name": "Arduino Renesas Portenta Boards",
+          "architecture": "renesas_portenta",
+          "version": "1.1.0",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
+          "archiveFileName": "ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
+          "checksum": "SHA-256:a00d25db39b6a4dff784175d60ae9e8a23b62cbded6b87e2150658833e1d1cec",
+          "size": "9508756",
+          "help": {
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+          },
+          "boards": [
+            {
+              "name": "Arduino Portenta C33"
             }
           ],
           "toolsDependencies": [
