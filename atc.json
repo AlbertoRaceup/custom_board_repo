@@ -1,10 +1,10 @@
 {
   "packages": [
     {
-      "name": "arduino",
-      "maintainer": "Arduino",
+      "name": "raceup",
+      "maintainer": "Raceup",
       "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "email": "alberto.damo@raceup.it",
       "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
