@@ -60,52 +60,6 @@
               "name": "dfu-discovery"
             }
           ]
-        },
-        {
-          "name": "Arduino Renesas Portenta Boards",
-          "architecture": "renesas_portenta",
-          "version": "1.1.0",
-          "category": "Arduino",
-          "url": "https://github.com/AlbertoRaceup/custom_board_repo/blob/master/ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
-          "archiveFileName": "ArduinoCore-renesas_portenta-1.1.0.tar.bz2",
-          "checksum": "SHA-256:a00d25db39b6a4dff784175d60ae9e8a23b62cbded6b87e2150658833e1d1cec",
-          "size": "9508756",
-          "help": {
-            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
-          },
-          "boards": [
-            {
-              "name": "Arduino Portenta C33"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.11.0-arduino2"
-            },
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.11.0-arduino5",
-              "name": "dfu-util"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.9.1-arduino5",
-              "name": "bossac"
-            }
-          ],
-          "discoveryDependencies": [
-            {
-              "packager": "builtin",
-              "name": "dfu-discovery"
-            }
-          ]
         }
       ],
       "tools": [
