@@ -23,12 +23,6 @@
           },
           "boards": [
             {
-              "name": "Arduino UNO R4 Minima"
-            },
-            {
-              "name": "Arduino UNO R4 WiFi"
-            },
-            {
               "name": "Raceup Atc"
             }
           ],
