@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Raceup UNO R4 Boards",
+          "name": "Raceup Atc board",
           "architecture": "renesas_uno",
           "version": "1.1.0",
           "category": "Raceup",
