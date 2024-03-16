@@ -11,7 +11,7 @@ atc.build.architecture=cortex-m4
 atc.build.fpu=-mfpu=fpv4-sp-d16
 atc.build.float-abi=-mfloat-abi=hard
 
-atc.build.board=ATC
+atc.build.board=MINIMA
 atc.build.defines=-DF_CPU=48000000 -DARDUINO_UNOR4_MINIMA
 atc.vid.0=0x2341
 atc.pid.0=0x0069
