@@ -16,8 +16,8 @@
           "category": "Raceup",
           "url": "http://downloads.arduino.cc/cores/staging/ArduinoCore-renesas_atc-1.1.0.tar.bz2",
           "archiveFileName": "ArduinoCore-renesas_atc-1.1.0.tar.bz2",
-          "checksum": "SHA-256:a95656ec8d155fd394a40c0451bb60c2a005d24f139bc559ce2ec6bf6786379a",
-          "size": "14479158",
+          "checksum": "SHA-256:493f6d6fb23668cc0524e9f52bd482f6a01b82a2ce1a6810c53382e486c12285",
+          "size": "14477835",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },

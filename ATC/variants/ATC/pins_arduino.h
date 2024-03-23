@@ -19,6 +19,8 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_A4   (18u)
 #define PIN_A5   (19u)
 
+#define PIN_A6   (29u)
+
 #define DAC8_HOWMANY (0)
 #define DAC12_HOWMANY (1)
 #define DAC         A0
@@ -37,6 +39,7 @@ static const uint8_t A2 = PIN_A2;
 static const uint8_t A3 = PIN_A3;
 static const uint8_t A4 = PIN_A4;
 static const uint8_t A5 = PIN_A5;
+static const uint8_t A6 = PIN_A6;
 
 // Digital pins
 // -----------
