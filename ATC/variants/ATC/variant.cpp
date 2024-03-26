@@ -58,6 +58,8 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_04_PIN_02,    P402   }, /* (28) D15 CAN_RX*/
 
   { BSP_IO_PORT_00_PIN_03,    P003   }, /* (29) A6 */
+
+  { BSP_IO_PORT_00_PIN_15,    P015   }, /* (30) A7 */
 };
 
 extern "C" {
