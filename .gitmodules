@@ -19,3 +19,6 @@
 [submodule "libraries/WiFi/extra/esptool"]
 	path = ATC/libraries/WiFi/extra/esptool
 	url = https://github.com/espressif/esptool.git
+[submodule "ATC/cores/arduino/ArduinoCore-API"]
+	path = ATC/cores/arduino/ArduinoCore-API
+	url = https://github.com/arduino/ArduinoCore-API.git
