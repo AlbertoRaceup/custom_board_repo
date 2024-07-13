@@ -22,3 +22,6 @@
 [submodule "ATC/cores/arduino/ArduinoCore-API"]
 	path = ATC/cores/arduino/ArduinoCore-API
 	url = https://github.com/arduino/ArduinoCore-API.git
+[submodule "ArduinoCore-API"]
+	path = ArduinoCore-API
+	url = https://github.com/arduino/ArduinoCore-API.git
