@@ -24,6 +24,9 @@
           "boards": [
             {
               "name": "Raceup_Atc"
+            },
+            {
+                "name": "Raceup_smu"
             }
           ],
           "toolsDependencies": [
