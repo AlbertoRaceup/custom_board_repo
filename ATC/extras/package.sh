@@ -1,20 +1,13 @@
 #!/bin/bash
 
-disable_board ()
-{
-    sed -i 's/$1./#$1./g' boards.txt
-}
-
 
 package_board(){
     git checkout boards.txt
     git checkout platform.txt
-    disable_board "atc"
-    disable_board "smu"
 
     sed -i 's/#$1./$1./g' boards.txt
 
-    VARIANT=$1
+    VARIANT=raceup
     EXCLUDE_TAGS=--exclude-tag-all=.portenta_only
 
     FILENAME=ArduinoCore-renesas_$VARIANT-$VERSION.tar.bz2
@@ -52,15 +45,12 @@ fi
 git checkout boards.txt
 git checkout platform.txt
 
-disable_board "atc" 
-disable_board "smu"
 
 VERSION=`cat platform.txt | grep "version=" | cut -f2 -d"="`
 echo $VERSION
 
 
 package_board "atc"
-package_board "smu"
 
 git checkout boards.txt
 git checkout platform.txt
