@@ -8,7 +8,7 @@
 extern "C" unsigned int PINCOUNT_fn();
 #endif
 #define PINS_COUNT           (PINCOUNT_fn())
-#define NUM_DIGITAL_PINS     (20u)
+// #define NUM_DIGITAL_PINS     (20u)
 #define NUM_ANALOG_INPUTS    (6u)
 #define NUM_ANALOG_OUTPUTS   (1u)
 
@@ -18,6 +18,13 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_A3   (17u)
 #define PIN_A4   (18u)
 #define PIN_A5   (19u)
+
+#define PIN_A6   (27u)
+#define PIN_A7   (28u)
+#define PIN_A8   (20u)
+#define PIN_A9   (29u)
+#define PIN_A10   (30u)
+#define PIN_A11   (31u)
 
 #define DAC8_HOWMANY (0)
 #define DAC12_HOWMANY (1)
@@ -36,7 +43,13 @@ static const uint8_t A1 = PIN_A1;
 static const uint8_t A2 = PIN_A2;
 static const uint8_t A3 = PIN_A3;
 static const uint8_t A4 = PIN_A4;
-static const uint8_t A5 = PIN_A5;
+static const uint8_t A6 = PIN_A5;
+static const uint8_t A7 = PIN_A6;
+static const uint8_t A8 = PIN_A7;
+static const uint8_t A8 = PIN_A8;
+static const uint8_t A9 = PIN_A9;
+static const uint8_t A10 = PIN_A10;
+static const uint8_t A11 = PIN_A11;
 
 // Digital pins
 // -----------
@@ -54,8 +67,8 @@ static const uint8_t A5 = PIN_A5;
 #define PIN_D11   (11u)
 #define PIN_D12   (12u)
 #define PIN_D13   (13u)
-#define PIN_D14   (14u)
-#define PIN_D15   (15u)
+// #define PIN_D14   (14u)
+// #define PIN_D15   (15u)
 
 #undef D0
 #undef D1
@@ -87,8 +100,8 @@ static const uint8_t D10 = PIN_D10;
 static const uint8_t D11 = PIN_D11;
 static const uint8_t D12 = PIN_D12;
 static const uint8_t D13 = PIN_D13;
-static const uint8_t D14 = PIN_D14;
-static const uint8_t D15 = PIN_D15;
+// static const uint8_t D14 = PIN_D14;
+// static const uint8_t D15 = PIN_D15;
 
 // LEDs
 // ----

@@ -28,8 +28,13 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_03_PIN_02,    P302   }, /* (1) D1  */
   { BSP_IO_PORT_01_PIN_05,    P105   }, /* (2) D2  */
   { BSP_IO_PORT_01_PIN_04,    P104   }, /* (3) D3~ */
-  { BSP_IO_PORT_01_PIN_03,    P103   }, /* (4) D4  */
-  { BSP_IO_PORT_01_PIN_02,    P102   }, /* (5) D5~ */
+
+  // { BSP_IO_PORT_01_PIN_03,    P103   }, /* (4) D4  */
+  { BSP_IO_PORT_04_PIN_01,    P401   }, /* (4) D4  */
+
+  // { BSP_IO_PORT_01_PIN_02,    P102   }, /* (5) D5~ */
+  { BSP_IO_PORT_04_PIN_02,    P402   }, /* (5) D5~ */
+
   { BSP_IO_PORT_01_PIN_06,    P106   }, /* (6) D6~ */
   { BSP_IO_PORT_01_PIN_07,    P107   }, /* (7) D7  */
   { BSP_IO_PORT_03_PIN_04,    P304   }, /* (8) D8  */
@@ -45,7 +50,8 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_01_PIN_01,    P101   }, /* (18) A4/SDA  */
   { BSP_IO_PORT_01_PIN_00,    P100   }, /* (19) A5/SCL  */
 
-  { BSP_IO_PORT_05_PIN_00,    P500   }, /* (20) Analog voltage measure pin  */
+  { BSP_IO_PORT_05_PIN_00,    P500   }, /* (20) A8  */
+
   { BSP_IO_PORT_00_PIN_12,    P012   }, /* (21) TX LED  */
   { BSP_IO_PORT_00_PIN_13,    P013   }, /* (22) RX LED  */
 
@@ -53,6 +59,14 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_05_PIN_02,    P502   }, /* (24) RX on SWD connector  */
   { BSP_IO_PORT_01_PIN_08,    P108   }, /* (25) SWDIO  */
   { BSP_IO_PORT_03_PIN_00,    P300   }, /* (26) SWCLK  */
+
+  { BSP_IO_PORT_00_PIN_03,    P003   }, /* (27) A6  */
+  { BSP_IO_PORT_00_PIN_04,    P004   }, /* (28) A7  */
+  { BSP_IO_PORT_00_PIN_15,    P015   }, /* (29) A9  */
+  { BSP_IO_PORT_01_PIN_03,    P103   }, /* (30) A10  */
+  { BSP_IO_PORT_01_PIN_02,    P102   }, /* (31) A11~ */
+
+  // { BSP_IO_PORT_05_PIN_00,    P500   }, /* (20) Analog voltage measure pin  */
 };
 
 extern "C" {
