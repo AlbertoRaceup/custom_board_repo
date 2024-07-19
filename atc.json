@@ -12,12 +12,12 @@
         {
           "name": "Raceup UNO R4 Boards",
           "architecture": "renesas_uno",
-          "version": "1.3.0",
+          "version": "1.3.1",
           "category": "Raceup",
-          "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_raceup-1.3.0.tar.bz2",
+          "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_raceup-1.3.1.tar.bz2",
           "archiveFileName": "ArduinoCore-renesas_raceup-1.3.0.tar.bz2",
-          "checksum": "SHA-256:e3450712f6daeb3c9a155ad8ddd3360e6d445d0746cabd2d65003d9c45143372",
-          "size": "10597440",
+          "checksum": "SHA-256:9f6f34c97c14a9b2117d268b36c2bf2da1ce4bf5f461e47de1ae025b8c900856",
+          "size": "10597562",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
