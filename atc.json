@@ -19,7 +19,7 @@
           "checksum": "SHA-256:4749bb175b70cfa2c7a1b30dcd79967cb2333b22d3b78e723c9e1075ec4ad3a8",
           "size": "10594878",
           "help": {
-            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
+            "online": "https://github.com/arduino/ArduinoCore-API"
           },
           "boards": [
             {
