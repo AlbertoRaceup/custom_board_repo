@@ -16,8 +16,8 @@
           "category": "Raceup",
           "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_raceup-1.3.2.tar.bz2",
           "archiveFileName": "ArduinoCore-renesas_raceup-1.3.2.tar.bz2",
-          "checksum": "SHA-256:9525ff0a51a3938d0a69334c3713b1794f28748161401ff1fe2905dd4a43e011",
-          "size": "10594976",
+          "checksum": "SHA-256:98b4ace8c408c2bb53819740997c93e7309b14917cd92af41e821350",
+          "size": "10594877",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
