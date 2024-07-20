@@ -28,9 +28,7 @@ package_board(){
             sed "s/%%VERSION%%/${VERSION}/" |
                 sed "s/%%FILENAME_UNO%%/${FILENAME}/" |
                 sed "s/%%CHECKSUM_UNO%%/${CHKSUM}/" |
-                sed "s/%%SIZE_UNO%%/${SIZE}/" > package_renesas_${VERSION}_index.json
-
-            cat package_renesas_${VERSION}_index.json
+                sed "s/%%SIZE_UNO%%/${SIZE}/" 
         }
 
 if [ ! -f platform.txt ]; then
