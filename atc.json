@@ -12,7 +12,7 @@
         {
           "name": "Raceup UNO R4 Boards",
           "architecture": "renesas_uno",
-          "version": "1.3.2",
+          "version": "1.3.3",
           "category": "Raceup",
           "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_raceup-1.3.2.tar.bz2",
           "archiveFileName": "ArduinoCore-renesas_raceup-1.3.2.tar.bz2",
