@@ -14,20 +14,20 @@
           "architecture": "renesas_uno",
           "version": "1.3.3",
           "category": "Raceup",
-          "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/ArduinoCore-renesas_raceup-1.3.3.tar.bz2",
-          "archiveFileName": "ArduinoCore-renesas_raceup-1.3.3.tar.bz2",
-          "checksum": "SHA-256:8bbeebb3d09aacc55057743205376a5f3b6ea7181cccea892cf01567cb7a2d35",
-          "size": "10455907",
+          "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/Raceup-renesas_raceup-1.3.3.tar.bz2",
+          "archiveFileName": "Raceup-renesas_raceup-1.3.3.tar.bz2",
+          "checksum": "SHA-256:a83bd1bf7cdaccf5579b73975c11bab6ab7f98ec0ba4ddeeb02ad1552cbcc306",
+          "size": "10455636",
           "help": {
-            "online": "https://github.com/arduino/ArduinoCore-API"
+            "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
           "boards": [
             {
-              "name": "Raceup_Atc"
+              "name": "Raceup Atc"
             },
             {
-                "name": "Raceup_smu"
-            }
+              "name": "Raceup Smu"
+            },
           ],
           "toolsDependencies": [
             {
@@ -57,7 +57,7 @@
               "name": "dfu-discovery"
             }
           ]
-        }
+        },
       ],
       "tools": [
         {
