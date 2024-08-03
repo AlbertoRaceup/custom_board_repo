@@ -106,7 +106,7 @@ smu.debug.svd_file={runtime.platform.path}/svd/R7FA4M1AB.svd
 
 ##############################################################
 
-stw.name=Arduino UNO R4 ATC
+stw.name=Arduino UNO R4 STW
 stw.build.core=arduino
 stw.build.crossprefix=arm-none-eabi-
 stw.build.compiler_path={runtime.tools.arm-none-eabi-gcc-7-2017q4.path}/bin/
