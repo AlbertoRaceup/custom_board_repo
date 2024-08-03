@@ -16,8 +16,8 @@
           "category": "Raceup",
           "url": "https://github.com/AlbertoRaceup/custom_board_repo/raw/master/Raceup-renesas_raceup-1.4.1.tar.bz2",
           "archiveFileName": "Raceup-renesas_raceup-1.4.1.tar.bz2",
-          "checksum": "SHA-256:62fbd45ded4e2271a5fc4e492c939b6d2de1566e80df651a159ad23d9c63f4dc",
-          "size": "14425987",
+          "checksum": "SHA-256:57c352eff0c540fb428c1d68502fc550ef590a4c03c8486bbd7314273f910229",
+          "size": "14425696",
           "help": {
             "online": "https://github.com/arduino/ArduinoCore-renesas/issues"
           },
