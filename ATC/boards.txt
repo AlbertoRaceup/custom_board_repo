@@ -103,3 +103,56 @@ smu.debug.server.openocd.scripts.0=interface/{programmer.protocol}.cfg
 smu.debug.server.openocd.scripts.1={programmer.transport_script}
 smu.debug.server.openocd.scripts.2={runtime.platform.path}/debugger/R7FA4M1AB.cfg
 smu.debug.svd_file={runtime.platform.path}/svd/R7FA4M1AB.svd
+
+##############################################################
+
+stw.name=Arduino UNO R4 ATC
+stw.build.core=arduino
+stw.build.crossprefix=arm-none-eabi-
+stw.build.compiler_path={runtime.tools.arm-none-eabi-gcc-7-2017q4.path}/bin/
+stw
+stw.build.variant=ATC
+stw.build.mcu=cortex-m4
+stw.build.architecture=cortex-m4
+stw.build.fpu=-mfpu=fpv4-sp-d16
+stw.build.float-abi=-mfloat-abi=hard
+stw
+stw.build.board=MINIMA
+stw.build.defines=-DF_CPU=48000000 -DARDUINO_UNOR4_MINIMA
+stw.vid.0=0x2341
+stw.pid.0=0x0069
+stw.vid.1=0x2341
+stw.pid.1=0x0369
+stw.upload_port.0.vid=0x2341
+stw.upload_port.0.pid=0x0069
+stw.upload_port.1.vid=0x2341
+stw.upload_port.1.pid=0x0369
+stw
+stw.compiler.fsp.defines={build.variant.path}/defines.txt
+stw.compiler.fsp.ldflags={build.variant.path}/ldflags.txt
+stw.compiler.fsp.cflags=-mthumb "@{compiler.fsp.defines}"
+stw.compiler.fsp.cxxflags=-mthumb "@{compiler.fsp.defines}"
+stw.compiler.tinyusb.cflags=-DCFG_TUSB_MCU=OPT_MCU_RAXXX
+stw.compiler.tinyusb.cxxflags=-DCFG_TUSB_MCU=OPT_MCU_RAXXX
+stw.compiler.fsp.includes={build.variant.path}/includes.txt
+stw.compiler.fsp.extra_ldflags=--specs=nano.specs -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys
+stw.compiler.fsp="{build.variant.path}/libs/libfsp.a"
+stw
+stw.upload.tool=dfu-util
+stw.upload.tool.default=dfu-util
+stw.upload.protocol=
+stw.upload.transport=
+stw.upload.vid=0x2341
+stw.upload.pid=0x0369
+stw.upload.address=0x00010000
+stw.upload.interface=0
+stw.upload.use_1200bps_touch=false
+stw.upload.wait_for_upload_port=false
+stw.upload.native_usb=true
+stw.upload.maximum_size=262144
+stw.upload.maximum_data_size=32768
+stw
+stw.debug.server.openocd.scripts.0=interface/{programmer.protocol}.cfg
+stw.debug.server.openocd.scripts.1={programmer.transport_script}
+stw.debug.server.openocd.scripts.2={runtime.platform.path}/debugger/R7FA4M1AB.cfg
+stw.debug.svd_file={runtime.platform.path}/svd/R7FA4M1AB.svd
