@@ -11,6 +11,8 @@ if [ ! -d ../ArduinoCore-API ]; then
     git clone https://github.com/arduino/ArduinoCore-API.git ../ArduinoCore-API
 fi
 
+cp -r ../ArduinoCore-API/api cores/arduino
+
 echo $VERSION
 
 VARIANT=raceup
