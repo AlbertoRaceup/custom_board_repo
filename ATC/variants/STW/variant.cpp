@@ -28,7 +28,7 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_03_PIN_02,    P302   }, /* (1) D1  */
   { BSP_IO_PORT_01_PIN_05,    P105   }, /* (2) D2  */
   { BSP_IO_PORT_01_PIN_04,    P104   }, /* (3) D3~ */
-  { BSP_IO_PORT_01_PIN_03,    P113   }, /* (4) D4  */
+  { BSP_IO_PORT_01_PIN_13,    P113   }, /* (4) D4  */
   { BSP_IO_PORT_01_PIN_02,    P102   }, /* (5) D5~ */
   { BSP_IO_PORT_01_PIN_06,    P106   }, /* (6) D6~ */
   { BSP_IO_PORT_01_PIN_07,    P107   }, /* (7) D7  */
@@ -42,7 +42,7 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_00_PIN_00,    P000   }, /* (15) A1  */
   { BSP_IO_PORT_00_PIN_01,    P001   }, /* (16) A2  */
   { BSP_IO_PORT_00_PIN_02,    P002   }, /* (17) A3  */
-  { BSP_IO_PORT_01_PIN_01,    P103   }, /* (18) A4/SDA  */
+  { BSP_IO_PORT_01_PIN_03,    P103   }, /* (18) A4/SDA  */
   { BSP_IO_PORT_01_PIN_00,    P100   }, /* (19) A5/SCL  */
 
   { BSP_IO_PORT_05_PIN_00,    P500   }, /* (20) Analog voltage measure pin  */
